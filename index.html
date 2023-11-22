@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>تقرير زيارة الحلقات</title>
+    
+
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <!-- <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script> -->
+
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    
+    <div class="container mt-3">
+       <div class="row">
+        <div class="col-2"></div>
+        
+
+        <div class="col-8 mb-3">
+
+            <script type="text/javascript">var submitted=false</script>
+            <iframe name="hiddenconfirm" id="hiddenconfirm" style="display: none;" onload="if(submitted){window.location='comformation.html';}"></iframe>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScc3dWAJTdchaQEUN1h244yYxPMrmlUoayIpAQcqYPCMMoXPg/formResponse" method="POST" target="hiddenconfirm" onsubmit="submitted=true">
+
+                <div class="card shadow border-info bg-danger-subtle">
+                    <div class="card-body">
+                        <div>
+                            <label for="masjid" class="form-label"><span style="color: red;">* </span>اسم المسجد</label>
+                            <input type="text" class="form-control" name="entry.1544580525" id="masjid" value="عبدالعزيز عزام (مجمع قرآني)" readonly>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-danger-subtle">
+                    <div class="card-body">
+                        <div>
+                            <label for="manager" class="form-label"><span style="color: red;">* </span>اسم المشرف / مدير المجمع</label>
+                            <input type="text" class="form-control" name="entry.582647815" id="manager" value="هاني سعد صالح الغامدي" readonly>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <div>
+                            <label for="teacher" class="form-label"><span style="color: red;">* </span>اسم المعلم</label>
+                            <select id="teacher" class="form-select" name="entry.1039756705"  required>
+                              
+                            </select>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body" id="classes">
+                        
+                    </div>
+                </div>
+    
+                
+    
+                <div class="card shadow border-info mt-2 bg-danger-subtle">
+                    <div class="card-body" id="school">
+                        
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="record" class="form-label"><span style="color: red;">* </span>تفعيل السجل</label>
+                        <select id="record" name="entry.1637206539" class="form-select">
+                            <option value="مفعل">مفعل</option>
+                            <option value="مفعل جزئيا">مفعل جزئيا</option>
+                            <option value="غير مفعل">غير مفعل</option>
+                        </select>
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="attendance" class="form-label"><span style="color: red;">* </span>مستوى حضور الطلاب</label>
+                        <select id="attendance" name="entry.984198456" class="form-select">
+                            <option value="ممتاز ( اكثر من 10 )">ممتاز ( اكثر من 10 )</option>
+                            <option value="جيد  ( اقل من 10 )">جيد  ( اقل من 10 )</option>
+                            <option value="ضعيف ( اقل من 5 )">ضعيف ( اقل من 5 )</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="performance" class="form-label"><span style="color: red;">* </span>المستوى العام لأداء الطلاب</label>
+                        <select id="performance" name="entry.519277745" class="form-select">
+                            <option value="ممتاز">ممتاز</option>
+                            <option value="جيد جداً">جيد جداً</option>
+                            <option value="جيد">جيد</option>
+                            <option value="مقبول">مقبول</option>
+                            <option value="ضعيف">ضعيف</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="grammer" class="form-label"><span style="color: red;">* </span>يهتم بالتجويد عمليا ونظريا</label>
+                        <select id="grammer" name="entry.1805482352" class="form-select">
+                            <option value="نعم">نعم</option>
+                            <option value="لا">لا</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="result" class="form-label"><span style="color: red;">* </span>هل لديه خطة إنتاجية الطلاب</label>
+                        <select id="result" name="entry.2074851376" class="form-select">
+                            <option value="نعم">نعم</option>
+                            <option value="لا">لا</option>
+                        </select>
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-danger-subtle">
+                    <div class="card-body">
+                        <label for="examers" class="form-label"><span style="color: red;">* </span>عدد المختبرين في الحلقة حتى الآن</label>
+                        <input type="text" class="form-control"  id="examers" name="entry.1130361097" readonly>
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <label for="meeting" class="form-label"><span style="color: red;">* </span>منتظم في الاجتماعات الدورية</label>
+                        <select id="meeting" name="entry.1933950011" class="form-select">
+                            <option value="نعم">نعم</option>
+                            <option value="لا">لا</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <div>
+                            <label for="visitdate" class="form-label"><span style="color: red;">* </span>تاريخ الزيارة  بالميلادي</label>
+                            <input type="date" class="form-control" id="visitdate" required>
+                        </div>
+                    </div>
+                </div>
+
+                <input id="getyear" type="hidden" name="entry.989430348_year">
+                <input id="getmonth" type="hidden" name="entry.989430348_month">
+                <input id="getday" type="hidden" name="entry.989430348_day">
+
+
+    
+                <div class="card shadow border-info mt-2 bg-danger-subtle">
+                    <div class="card-body" id="period">
+                        
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <div>
+                            <label for="comment" class="form-label">ملاحظات</label>
+                            <input type="text" class="form-control" id="comment" name="entry.176137068" placeholder="دون ملاحظاتك إن وجدت">
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="card shadow border-info mt-2 bg-success-subtle">
+                    <div class="card-body">
+                        <div class="d-grid gap-2 col-2 mx-auto">
+                            <input type="submit" class="btn btn-outline-dark" value="إرسال التقرير">
+                        </div>
+                    </div>
+                </div>
+    
+
+            </form>
+
+        </div>
+        
+        
+
+        <div class="col-2"></div>
+       </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "packages": ["pandas", "openpyxl"],
+    "files": {
+        "./result.xlsx": "./result.xlsx",
+        "./data.json": "./data.json"
+    }
+}
